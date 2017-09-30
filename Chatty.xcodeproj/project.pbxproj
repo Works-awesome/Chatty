@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC3DF9D11F7F799B004E3AF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF9D01F7F799B004E3AF2 /* AppDelegate.swift */; };
+		DC3DF9D31F7F799B004E3AF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF9D21F7F799B004E3AF2 /* ViewController.swift */; };
+		DC3DF9D61F7F799B004E3AF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9D41F7F799B004E3AF2 /* Main.storyboard */; };
+		DC3DF9D81F7F799B004E3AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9D71F7F799B004E3AF2 /* Assets.xcassets */; };
+		DC3DF9DB1F7F799B004E3AF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9D91F7F799B004E3AF2 /* LaunchScreen.storyboard */; };
+		DC3DF9E31F7F79EF004E3AF2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9E21F7F79EF004E3AF2 /* logo.png */; };
+		DC3DF9E51F7F7C66004E3AF2 /* chat-speech-bubbles.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9E41F7F7C66004E3AF2 /* chat-speech-bubbles.png */; };
+		DC3DF9E71F7F7C93004E3AF2 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9E61F7F7C93004E3AF2 /* plus.png */; };
+		DC3DF9E91F7F7D19004E3AF2 /* facebook-placeholder-for-locate-places-on-maps.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9E81F7F7D19004E3AF2 /* facebook-placeholder-for-locate-places-on-maps.png */; };
+		DC3DF9EB1F7F7D6C004E3AF2 /* settings (1).png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9EA1F7F7D6C004E3AF2 /* settings (1).png */; };
+		DC3DF9EE1F7F7DF4004E3AF2 /* LetsStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF9ED1F7F7DF4004E3AF2 /* LetsStartViewController.swift */; };
+		DC3DF9F01F7F7E06004E3AF2 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3DF9EF1F7F7E06004E3AF2 /* ChatListViewController.swift */; };
+		DC3DF9F21F7F7E86004E3AF2 /* girl1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9F11F7F7E86004E3AF2 /* girl1.png */; };
+		DC3DF9F41F7F808B004E3AF2 /* girl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9F31F7F808B004E3AF2 /* girl.jpeg */; };
+		DC3DF9F61F7F818C004E3AF2 /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = DC3DF9F51F7F818C004E3AF2 /* man.png */; };
+		DC3DF9F91F7F826D004E3AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3DF9F81F7F826D004E3AF2 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC3DF9CD1F7F799B004E3AF2 /* Chatty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3DF9D01F7F799B004E3AF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC3DF9D21F7F799B004E3AF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC3DF9D51F7F799B004E3AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC3DF9D71F7F799B004E3AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC3DF9DA1F7F799B004E3AF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC3DF9DC1F7F799B004E3AF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3DF9E21F7F79EF004E3AF2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		DC3DF9E41F7F7C66004E3AF2 /* chat-speech-bubbles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chat-speech-bubbles.png"; sourceTree = "<group>"; };
+		DC3DF9E61F7F7C93004E3AF2 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		DC3DF9E81F7F7D19004E3AF2 /* facebook-placeholder-for-locate-places-on-maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook-placeholder-for-locate-places-on-maps.png"; sourceTree = "<group>"; };
+		DC3DF9EA1F7F7D6C004E3AF2 /* settings (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings (1).png"; sourceTree = "<group>"; };
+		DC3DF9ED1F7F7DF4004E3AF2 /* LetsStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetsStartViewController.swift; sourceTree = "<group>"; };
+		DC3DF9EF1F7F7E06004E3AF2 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		DC3DF9F11F7F7E86004E3AF2 /* girl1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl1.png; sourceTree = "<group>"; };
+		DC3DF9F31F7F808B004E3AF2 /* girl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpeg; sourceTree = "<group>"; };
+		DC3DF9F51F7F818C004E3AF2 /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		DC3DF9F81F7F826D004E3AF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3DF9CA1F7F799B004E3AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DF9F91F7F826D004E3AF2 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC3DF9C41F7F799B004E3AF2 = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9CF1F7F799B004E3AF2 /* Chatty */,
+				DC3DF9CE1F7F799B004E3AF2 /* Products */,
+				DC3DF9F71F7F826D004E3AF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC3DF9CE1F7F799B004E3AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9CD1F7F799B004E3AF2 /* Chatty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC3DF9CF1F7F799B004E3AF2 /* Chatty */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9EC1F7F7DD8004E3AF2 /* ViewControllers */,
+				DC3DF9FB1F7F93AB004E3AF2 /* AppDelegate */,
+				DC3DF9D41F7F799B004E3AF2 /* Main.storyboard */,
+				DC3DF9FA1F7F939F004E3AF2 /* images */,
+				DC3DF9D71F7F799B004E3AF2 /* Assets.xcassets */,
+				DC3DF9D91F7F799B004E3AF2 /* LaunchScreen.storyboard */,
+				DC3DF9DC1F7F799B004E3AF2 /* Info.plist */,
+			);
+			path = Chatty;
+			sourceTree = "<group>";
+		};
+		DC3DF9EC1F7F7DD8004E3AF2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9D21F7F799B004E3AF2 /* ViewController.swift */,
+				DC3DF9ED1F7F7DF4004E3AF2 /* LetsStartViewController.swift */,
+				DC3DF9EF1F7F7E06004E3AF2 /* ChatListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DC3DF9F71F7F826D004E3AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9F81F7F826D004E3AF2 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC3DF9FA1F7F939F004E3AF2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9F11F7F7E86004E3AF2 /* girl1.png */,
+				DC3DF9E21F7F79EF004E3AF2 /* logo.png */,
+				DC3DF9F51F7F818C004E3AF2 /* man.png */,
+				DC3DF9F31F7F808B004E3AF2 /* girl.jpeg */,
+				DC3DF9E81F7F7D19004E3AF2 /* facebook-placeholder-for-locate-places-on-maps.png */,
+				DC3DF9E41F7F7C66004E3AF2 /* chat-speech-bubbles.png */,
+				DC3DF9EA1F7F7D6C004E3AF2 /* settings (1).png */,
+				DC3DF9E61F7F7C93004E3AF2 /* plus.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		DC3DF9FB1F7F93AB004E3AF2 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DC3DF9D01F7F799B004E3AF2 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3DF9CC1F7F799B004E3AF2 /* Chatty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3DF9DF1F7F799B004E3AF2 /* Build configuration list for PBXNativeTarget "Chatty" */;
+			buildPhases = (
+				DC3DF9C91F7F799B004E3AF2 /* Sources */,
+				DC3DF9CA1F7F799B004E3AF2 /* Frameworks */,
+				DC3DF9CB1F7F799B004E3AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatty;
+			productName = Chatty;
+			productReference = DC3DF9CD1F7F799B004E3AF2 /* Chatty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3DF9C51F7F799B004E3AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = innovation.llc;
+				TargetAttributes = {
+					DC3DF9CC1F7F799B004E3AF2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PEH7JX5YY9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DC3DF9C81F7F799B004E3AF2 /* Build configuration list for PBXProject "Chatty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3DF9C41F7F799B004E3AF2;
+			productRefGroup = DC3DF9CE1F7F799B004E3AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3DF9CC1F7F799B004E3AF2 /* Chatty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3DF9CB1F7F799B004E3AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DF9E31F7F79EF004E3AF2 /* logo.png in Resources */,
+				DC3DF9F61F7F818C004E3AF2 /* man.png in Resources */,
+				DC3DF9F41F7F808B004E3AF2 /* girl.jpeg in Resources */,
+				DC3DF9DB1F7F799B004E3AF2 /* LaunchScreen.storyboard in Resources */,
+				DC3DF9F21F7F7E86004E3AF2 /* girl1.png in Resources */,
+				DC3DF9E91F7F7D19004E3AF2 /* facebook-placeholder-for-locate-places-on-maps.png in Resources */,
+				DC3DF9D81F7F799B004E3AF2 /* Assets.xcassets in Resources */,
+				DC3DF9E51F7F7C66004E3AF2 /* chat-speech-bubbles.png in Resources */,
+				DC3DF9D61F7F799B004E3AF2 /* Main.storyboard in Resources */,
+				DC3DF9EB1F7F7D6C004E3AF2 /* settings (1).png in Resources */,
+				DC3DF9E71F7F7C93004E3AF2 /* plus.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3DF9C91F7F799B004E3AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC3DF9D31F7F799B004E3AF2 /* ViewController.swift in Sources */,
+				DC3DF9EE1F7F7DF4004E3AF2 /* LetsStartViewController.swift in Sources */,
+				DC3DF9F01F7F7E06004E3AF2 /* ChatListViewController.swift in Sources */,
+				DC3DF9D11F7F799B004E3AF2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC3DF9D41F7F799B004E3AF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3DF9D51F7F799B004E3AF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC3DF9D91F7F799B004E3AF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC3DF9DA1F7F799B004E3AF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3DF9DD1F7F799B004E3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC3DF9DE1F7F799B004E3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3DF9E01F7F799B004E3AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PEH7JX5YY9;
+				INFOPLIST_FILE = Chatty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innovation.llc.Chatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DC3DF9E11F7F799B004E3AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PEH7JX5YY9;
+				INFOPLIST_FILE = Chatty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = innovation.llc.Chatty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3DF9C81F7F799B004E3AF2 /* Build configuration list for PBXProject "Chatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DF9DD1F7F799B004E3AF2 /* Debug */,
+				DC3DF9DE1F7F799B004E3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3DF9DF1F7F799B004E3AF2 /* Build configuration list for PBXNativeTarget "Chatty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3DF9E01F7F799B004E3AF2 /* Debug */,
+				DC3DF9E11F7F799B004E3AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3DF9C51F7F799B004E3AF2 /* Project object */;
+}
